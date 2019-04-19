@@ -3,5 +3,5 @@ $line = $page.ParsedHtml.getElementsByTagName('font') | Select-Object -ExpandPro
 $excuse = $line[1]
 
 
-Write-Output -InputObject( "Todays excuse is {0}" -f $excuse ) 
+Write-Output -InputObject( "Todays excuse is {0} from the BOFH generator" -f $excuse ) 
 
